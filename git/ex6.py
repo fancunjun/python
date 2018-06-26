@@ -19,3 +19,4 @@ print joke_evaluation % hilarious
 w = "This is the left side of ...."
 e = "a string with a right side."
 print w + e 
+#两个字符串相加是调用了python的apped()方法然后再调用转化成字符串方法，最后把结果返回
